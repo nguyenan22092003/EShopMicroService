@@ -6,24 +6,71 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{26E547DB-BA49-4B9C-93B3-94DBC0D05BD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{E8BDF40F-9E3B-473B-A3CC-450F08EF296B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Catalog\Catalog.API\Catalog.API.csproj", "{E8BDF40F-9E3B-473B-A3CC-450F08EF296B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{62D365E1-CC38-44CA-885D-4E7C8C57C2D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{EDF3612B-1449-40D0-99AE-CCE904E9A087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\BuildingBlocks\BuildingBlocks.csproj", "{EDF3612B-1449-40D0-99AE-CCE904E9A087}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DB4F2595-8DFB-4888-BB89-A5940152BF5A}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\docker-compose.dcproj", "{DB4F2595-8DFB-4888-BB89-A5940152BF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{908E1D07-9B9F-4B3D-B42A-73DDC31619D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Basket\Basket.API\Basket.API.csproj", "{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{73735307-170A-48F3-98AC-944DC3476A6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{20BB3138-AF71-4AAF-A277-161325E14A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{23A962EF-469E-4983-A76D-256A9D3CABDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.API\Ordering.API.csproj", "{F5EEC08D-E925-4370-AF89-F74DDBA498F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{7B152503-F518-4521-A207-5EA226AC2FEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{C27F392C-14C4-48BD-B728-0B4ADBB7C393}"
 EndProject
 Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68405F32-523C-4F52-A6E9-EE09DA08FD6C}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{20BB3138-AF71-4AAF-A277-161325E14A21} = {73735307-170A-48F3-98AC-944DC3476A6F}
+		{23A962EF-469E-4983-A76D-256A9D3CABDF} = {B36F6AB6-5B4A-4BB4-A7FC-750D51BA254A}
 		{26E547DB-BA49-4B9C-93B3-94DBC0D05BD7} = {B36F6AB6-5B4A-4BB4-A7FC-750D51BA254A}
+		{73735307-170A-48F3-98AC-944DC3476A6F} = {B36F6AB6-5B4A-4BB4-A7FC-750D51BA254A}
+		{7B152503-F518-4521-A207-5EA226AC2FEF} = {23A962EF-469E-4983-A76D-256A9D3CABDF}
+		{908E1D07-9B9F-4B3D-B42A-73DDC31619D4} = {B36F6AB6-5B4A-4BB4-A7FC-750D51BA254A}
+		{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E} = {23A962EF-469E-4983-A76D-256A9D3CABDF}
+		{C097FAD2-7B5D-467E-A90D-BBCD43078A1C} = {908E1D07-9B9F-4B3D-B42A-73DDC31619D4}
+		{C27F392C-14C4-48BD-B728-0B4ADBB7C393} = {23A962EF-469E-4983-A76D-256A9D3CABDF}
 		{E8BDF40F-9E3B-473B-A3CC-450F08EF296B} = {26E547DB-BA49-4B9C-93B3-94DBC0D05BD7}
 		{EDF3612B-1449-40D0-99AE-CCE904E9A087} = {62D365E1-CC38-44CA-885D-4E7C8C57C2D5}
+		{F5EEC08D-E925-4370-AF89-F74DDBA498F8} = {23A962EF-469E-4983-A76D-256A9D3CABDF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BB3138-AF71-4AAF-A277-161325E14A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB3138-AF71-4AAF-A277-161325E14A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB3138-AF71-4AAF-A277-161325E14A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB3138-AF71-4AAF-A277-161325E14A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B152503-F518-4521-A207-5EA226AC2FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B152503-F518-4521-A207-5EA226AC2FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B152503-F518-4521-A207-5EA226AC2FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B152503-F518-4521-A207-5EA226AC2FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27F392C-14C4-48BD-B728-0B4ADBB7C393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27F392C-14C4-48BD-B728-0B4ADBB7C393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27F392C-14C4-48BD-B728-0B4ADBB7C393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27F392C-14C4-48BD-B728-0B4ADBB7C393}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB4F2595-8DFB-4888-BB89-A5940152BF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB4F2595-8DFB-4888-BB89-A5940152BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB4F2595-8DFB-4888-BB89-A5940152BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,6 +83,10 @@ Global
 		{EDF3612B-1449-40D0-99AE-CCE904E9A087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF3612B-1449-40D0-99AE-CCE904E9A087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF3612B-1449-40D0-99AE-CCE904E9A087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EEC08D-E925-4370-AF89-F74DDBA498F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EEC08D-E925-4370-AF89-F74DDBA498F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EEC08D-E925-4370-AF89-F74DDBA498F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EEC08D-E925-4370-AF89-F74DDBA498F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

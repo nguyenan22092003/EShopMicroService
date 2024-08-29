@@ -1,4 +1,6 @@
-﻿namespace Catalog.API.Models
+﻿using System.Numerics;
+
+namespace Catalog.API.Models
 {
     public class Product
     {
