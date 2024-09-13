@@ -99,7 +99,7 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
                    paymentBuilder.Property(p => p.Expiration)
                        .HasMaxLength(10);
 
-                   paymentBuilder.Property(p => p.Cvv)
+                   paymentBuilder.Property(p => p.CVV)
                        .HasMaxLength(3);
 
                    paymentBuilder.Property(p => p.PaymentMethod);
