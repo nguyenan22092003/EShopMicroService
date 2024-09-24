@@ -25,6 +25,7 @@ public static class Extentions
                 });
                 configurator.ConfigureEndpoints(context);
             });
+
         });
 
         return services;

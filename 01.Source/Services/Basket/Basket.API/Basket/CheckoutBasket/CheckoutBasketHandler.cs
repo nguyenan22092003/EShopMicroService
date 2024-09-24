@@ -1,4 +1,5 @@
-﻿using Basket.API.Dtos;
+﻿
+using Basket.API.Dtos;
 using BuildingBlocks.Messaging.Events;
 using MassTransit;
 
@@ -24,17 +25,17 @@ public class CheckoutBasketCommandHandler
 {
     public async Task<CheckoutBasketResult> Handle(CheckoutBasketCommand command, CancellationToken cancellationToken)
     {
-        // Get existing basket with total price
+        // get existing basket with total price
         // Set totalprice on basketcheckout event message
-        // Send basket checkout event to rabbitmq using masstransit
-        // Delete the basket
-        
+        // send basket checkout event to rabbitmq using masstransit
+        // delete the basket
+
         var basket = await repository.GetBasket(command.BasketCheckoutDto.UserName, cancellationToken);
-        if(basket == null)
+        if (basket == null)
         {
             return new CheckoutBasketResult(false);
-        } 
-        
+        }
+
         var eventMessage = command.BasketCheckoutDto.Adapt<BasketCheckoutEvent>();
         eventMessage.TotalPrice = basket.TotalPrice;
 
