@@ -6,33 +6,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{26E547DB-BA49-4B9C-93B3-94DBC0D05BD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Catalog\Catalog.API\Catalog.API.csproj", "{E8BDF40F-9E3B-473B-A3CC-450F08EF296B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{E8BDF40F-9E3B-473B-A3CC-450F08EF296B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{62D365E1-CC38-44CA-885D-4E7C8C57C2D5}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\docker-compose.dcproj", "{DB4F2595-8DFB-4888-BB89-A5940152BF5A}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DB4F2595-8DFB-4888-BB89-A5940152BF5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{908E1D07-9B9F-4B3D-B42A-73DDC31619D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Basket\Basket.API\Basket.API.csproj", "{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{C097FAD2-7B5D-467E-A90D-BBCD43078A1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{73735307-170A-48F3-98AC-944DC3476A6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{20BB3138-AF71-4AAF-A277-161325E14A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{20BB3138-AF71-4AAF-A277-161325E14A21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{23A962EF-469E-4983-A76D-256A9D3CABDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.API\Ordering.API.csproj", "{F5EEC08D-E925-4370-AF89-F74DDBA498F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{F5EEC08D-E925-4370-AF89-F74DDBA498F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{7B152503-F518-4521-A207-5EA226AC2FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{7B152503-F518-4521-A207-5EA226AC2FEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{B7C14F4C-52D8-4C60-B6F0-C056145B5B4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{C27F392C-14C4-48BD-B728-0B4ADBB7C393}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{C27F392C-14C4-48BD-B728-0B4ADBB7C393}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Messaging", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{954E417C-DF67-46EE-B3AF-A0531B54D099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{954E417C-DF67-46EE-B3AF-A0531B54D099}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "E:\LearnDocker\Udemy\MircoService_GRPC\EShopMicroService\01.Source\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{C356F710-976F-42DF-AF36-5606D67A91DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{C356F710-976F-42DF-AF36-5606D67A91DB}"
 EndProject
 Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
