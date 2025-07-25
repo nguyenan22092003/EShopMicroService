@@ -2,22 +2,32 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C#: Basket.API Debug",
+      "name": "Run Basket API",
       "type": "dotnet",
       "request": "launch",
       "projectPath": "${workspaceFolder}/Services/Basket/Basket.API/Basket.API.csproj"
     },
     {
-      "name": "C#: Discount.Grpc Debug",
+      "name": "Run Discount Grpc",
       "type": "dotnet",
       "request": "launch",
       "projectPath": "${workspaceFolder}/Services/Discount/Discount.Grpc/Discount.Grpc.csproj"
     },
     {
-      "name": "C#: Ordering.API Debug",
+      "name": "Run Ordering API",
       "type": "dotnet",
       "request": "launch",
       "projectPath": "${workspaceFolder}/Services/Ordering/Ordering.API/Ordering.API.csproj"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run All Projects",
+      "configurations": [
+        "Run Basket API",
+        "Run Discount Grpc",
+        "Run Ordering API"
+      ]
     }
   ]
 }
